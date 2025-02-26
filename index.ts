@@ -122,4 +122,39 @@
 // ul.getbalance = 76576;
  
 
+//read only
+// class abcd{
+//     constructor(public readonly name:string){
+//          this.name = name;
+//     }
+//     setName(value:string){
+//         this.name = value;
+//     }
+// }
 
+
+// class abcd{
+//     constructor(public username:string){
+//         this.username = username;
+//     }
+//     get name() {
+//         return this.username;
+//     }
+//     set name(value:string){
+//         this.username = value;
+//     }
+// }
+
+// let abcd1 = new abcd("lakshya");
+// abcd1.name = "utkarsh";
+// console.log(abcd1.name);
+
+// function addition(name:string): String {
+//     return "hey" ;
+// }
+
+
+
+//litertals
+let namee : "lakshya";
+ 
